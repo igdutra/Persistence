@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/igdutra/Network/",
+      "state" : {
+        "branch" : "swift-package",
+        "revision" : "84fdf05972c3ad56cde48d3f398ecbde1f86063d"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -10,6 +10,7 @@
 		921D015E295110ED009ACF6D /* Persistence_Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D0155295110ED009ACF6D /* Persistence_Essentials.framework */; };
 		921D0163295110ED009ACF6D /* Persistence_EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */; };
 		921D0164295110ED009ACF6D /* Persistence_Essentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 921D0158295110ED009ACF6D /* Persistence_Essentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E93E8F295124D200617D3B /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 92E93E8E295124D200617D3B /* Network */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E93E8F295124D200617D3B /* Network in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,9 @@
 			dependencies = (
 			);
 			name = "Persistence-Essentials";
+			packageProductDependencies = (
+				92E93E8E295124D200617D3B /* Network */,
+			);
 			productName = "Persistence-Essentials";
 			productReference = 921D0155295110ED009ACF6D /* Persistence_Essentials.framework */;
 			productType = "com.apple.product-type.framework";
@@ -167,6 +172,9 @@
 				Base,
 			);
 			mainGroup = 921D014B295110ED009ACF6D;
+			packageReferences = (
+				92E93E8D295124D200617D3B /* XCRemoteSwiftPackageReference "Network" */,
+			);
 			productRefGroup = 921D0156295110ED009ACF6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -453,6 +461,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92E93E8D295124D200617D3B /* XCRemoteSwiftPackageReference "Network" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/igdutra/Network/";
+			requirement = {
+				branch = "swift-package";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92E93E8E295124D200617D3B /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92E93E8D295124D200617D3B /* XCRemoteSwiftPackageReference "Network" */;
+			productName = Network;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 921D014C295110ED009ACF6D /* Project object */;
 }
