@@ -11,6 +11,7 @@
 		921D0163295110ED009ACF6D /* Persistence_EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */; };
 		921D0164295110ED009ACF6D /* Persistence_Essentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 921D0158295110ED009ACF6D /* Persistence_Essentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92E93E8F295124D200617D3B /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 92E93E8E295124D200617D3B /* Network */; };
+		92FF62BB29539B7E006B2E4C /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +29,7 @@
 		921D0158295110ED009ACF6D /* Persistence_Essentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persistence_Essentials.h; sourceTree = "<group>"; };
 		921D015D295110ED009ACF6D /* Persistence-EssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistence-EssentialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence_EssentialsTests.swift; sourceTree = "<group>"; };
+		92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */,
+				92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */,
 			);
 			path = "Persistence-EssentialsTests";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92FF62BB29539B7E006B2E4C /* CacheFeedUseCaseTests.swift in Sources */,
 				921D0163295110ED009ACF6D /* Persistence_EssentialsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
