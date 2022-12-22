@@ -22,4 +22,8 @@ public extension XCTestCase {
         components.host = host
         return components.url!
     }
+    
+    func anyNSError() -> NSError {
+        NSError(domain: "any error", code: 1)
+    }
 }
