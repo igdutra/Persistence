@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		921D015E295110ED009ACF6D /* Persistence_Essentials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921D0155295110ED009ACF6D /* Persistence_Essentials.framework */; };
-		921D0163295110ED009ACF6D /* Persistence_EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */; };
 		921D0164295110ED009ACF6D /* Persistence_Essentials.h in Headers */ = {isa = PBXBuildFile; fileRef = 921D0158295110ED009ACF6D /* Persistence_Essentials.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92E93E8F295124D200617D3B /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 92E93E8E295124D200617D3B /* Network */; };
 		92FF62BB29539B7E006B2E4C /* CacheFeedUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */; };
+		92FF62BD2954DFD3006B2E4C /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FF62BC2954DFD3006B2E4C /* XCTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 		921D0155295110ED009ACF6D /* Persistence_Essentials.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Persistence_Essentials.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921D0158295110ED009ACF6D /* Persistence_Essentials.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persistence_Essentials.h; sourceTree = "<group>"; };
 		921D015D295110ED009ACF6D /* Persistence-EssentialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistence-EssentialsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence_EssentialsTests.swift; sourceTree = "<group>"; };
 		92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
+		92FF62BC2954DFD3006B2E4C /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 		921D0161295110ED009ACF6D /* Persistence-EssentialsTests */ = {
 			isa = PBXGroup;
 			children = (
-				921D0162295110ED009ACF6D /* Persistence_EssentialsTests.swift */,
+				92FF62BE2954DFE5006B2E4C /* Helpers */,
 				92FF62BA29539B7E006B2E4C /* CacheFeedUseCaseTests.swift */,
 			);
 			path = "Persistence-EssentialsTests";
@@ -93,6 +93,14 @@
 				921D0158295110ED009ACF6D /* Persistence_Essentials.h */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		92FF62BE2954DFE5006B2E4C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				92FF62BC2954DFD3006B2E4C /* XCTestCase.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,7 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FF62BB29539B7E006B2E4C /* CacheFeedUseCaseTests.swift in Sources */,
-				921D0163295110ED009ACF6D /* Persistence_EssentialsTests.swift in Sources */,
+				92FF62BD2954DFD3006B2E4C /* XCTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
