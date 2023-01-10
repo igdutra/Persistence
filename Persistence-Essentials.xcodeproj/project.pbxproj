@@ -77,7 +77,7 @@
 		921D0157295110ED009ACF6D /* Persistence-Essentials */ = {
 			isa = PBXGroup;
 			children = (
-				92D78DD4296E0F8900DD7494 /* FeedCache */,
+				92D78DDA296E105E00DD7494 /* FeedCache */,
 				921D016D295112C8009ACF6D /* App */,
 			);
 			path = "Persistence-Essentials";
@@ -100,13 +100,13 @@
 			name = App;
 			sourceTree = "<group>";
 		};
-		92D78DD4296E0F8900DD7494 /* FeedCache */ = {
+		92D78DDA296E105E00DD7494 /* FeedCache */ = {
 			isa = PBXGroup;
 			children = (
 				92D78DD5296E0F9A00DD7494 /* LocalFeedLoader.swift */,
 				92D78DD7296E0FB200DD7494 /* FeedStore.swift */,
 			);
-			name = FeedCache;
+			path = FeedCache;
 			sourceTree = "<group>";
 		};
 		92FF62BE2954DFE5006B2E4C /* Helpers */ = {
